@@ -118,9 +118,9 @@ As colunas 'atraso' e 'adiantamento' foram obtidas após a comparação entre as
 
 ![image](https://user-images.githubusercontent.com/32077255/107834049-f1c7c580-6d73-11eb-9a64-077ae626f4cf.png)
 
-#### Contagem das variáveis em relação ao atraso e adiantamento para visualização dos dados
+#### Contagem do atraso e do adiantamento em relação as variáveis para visualização dos dados
 
-A partir das features/variáveis do dataframe anterior foi criado um dataframe para cada variável, que relaciona uma variável a quantidade de atraso ou adiantamento. Por exemplo, para fazer 'empresa' foi obtido o seguinte resultado:
+A partir das features/variáveis do dataframe anterior foi criado um dataframe para cada variável, que relaciona uma variável a quantidade de atraso ou adiantamento. Por exemplo, para fazer de 'empresa' relacionada ao 'atraso' foi obtido o seguinte resultado:
 
 ![image](https://user-images.githubusercontent.com/32077255/107834867-4c622100-6d76-11eb-883e-319557a2417a.png)
 
@@ -138,9 +138,9 @@ Outra feature, que nos ajudará a ter uma visualização melhor sobre o atraso e
 
 ![image](https://user-images.githubusercontent.com/32077255/107835582-c5627800-6d78-11eb-909f-3021f86e1ea3.png)
 
-Para obter um melhor resultado a respeito das empresas foi criado alguns gráficos que mostram o atraso e o adiantamento de cada empresa pelo sentido da viagem. Uma vez que uma empresa pode ter tido uma quantidade alta de atrasos, mas pode ter tido um bom desempenho em algum sentido de viagem.
+Para obter um melhor resultado a respeito das empresas e do sentido foi criado alguns gráficos que mostram a quantidade de atrasos e de adiantamentos de cada empresa por sentido da viagem. Uma vez que uma empresa pode ter tido uma quantidade alta de atrasos totais, mas pode ter tido um bom desempenho em algum sentido de viagem.
 
-![image](https://user-images.githubusercontent.com/32077255/107835955-22126280-6d7a-11eb-945d-92acb8e4946e.png)
+![image](https://user-images.githubusercontent.com/32077255/107837479-c1862400-6d7f-11eb-93cf-7e3a32600f3f.png)
 
 Além das features anteriores, o número da linha também foi utilizada para fazer análise dos indicadores apresentados e foi obtido o seguinte resultado:
 
@@ -150,12 +150,12 @@ Para uma visualização mais geral a respeito do número da linha, então foi cr
 
 ![image](https://user-images.githubusercontent.com/32077255/107836478-0445fd00-6d7c-11eb-83f5-439dce9cc422.png)
 
-Por fim, o seguinte gráfico foi plotado para representar as distribuições do número da linha que atrasou ou não atrasou
+Por fim, o seguinte gráfico foi plotado para representar as distribuições do número da linha que atrasou ou não atrasou.
 
 ![image](https://user-images.githubusercontent.com/32077255/107836534-4b33f280-6d7c-11eb-9916-7a5d8830cb16.png)
 
 ## Conclusão
 
-Em todos os gráficos, o atraso se sobressai. Contudo, é possível fazer algumas ressalvas com base em cada feature utilizada para ser relacionada com o atraso ou o adiantamento da viagem.
-A respeito das empresas, a empresa 'Empresa São Francisco' teve o pior desempenho com quase o dobro atraso ao ser comparado com o adiantamento. E a empresa 'Real Transportes Urbanos Ltda.' teve o melhor desempenho com quase a mesma quantidade de atrasos e adiantamento. 
-Com base no sentido da viagem, analisando especificamente os gráficos de sentido da viagem para cada empresa, é possível observar que a empresa 'Auto Viação Veleiro LTDA' teve um bom resultado na ida, já as empresas 'Real Transportes Urbanos Ltda.' e 'Viação Cidade de Maceió' tiveram bons resultados na volta.
+Tendo em vista apenas os gráficos mais gerais ('adiatamento e atraso', 'sentido da viagem' e 'quantidade de linhas que mais atrasaram e as que mais adiantaram'), a quantidade de atrasos se sobressai mostrando um desempenho ruim do sistema. Contudo, é possível fazer algumas ressalvas com base nos demais gráficos apresentados.
+A respeito do gráfico 'Empresas', a empresa "Empresa São Francisco" teve o pior desempenho com quase o dobro de atraso em contraste com as outras empresas. E a empresa "Real Transportes Urbanos Ltda." teve o melhor desempenho com quase a mesma quantidade de atrasos e adiantamentos. 
+A partir dos gráficos de atraso e adiantamento por sentido da viagem de cada empresa, é possível observar que a empresa "Auto Viação Veleiro LTDA" teve um bom resultado na ida, já as empresas "Real Transportes Urbanos Ltda." e "Viação Cidade de Maceió" tiveram bons resultados na volta.
