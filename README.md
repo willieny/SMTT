@@ -17,7 +17,6 @@ O objetivo é desenvolver a apresentação de um resumo a partir de pelo menos u
 Antes de qualquer preparação, é necessário importar as bibliotecas Python contendo a funcionalidade necessária que será utilizada.
 
 ```
-import nltk
 import pandas as pd
 import numpy as np
 import math
